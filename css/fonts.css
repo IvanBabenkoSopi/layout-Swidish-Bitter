@@ -1,0 +1,11 @@
+/* подключаем шрифты для вопроса. можно подключить одельным файлом css, либо в одном файле css это написать в самом верху
+Нужно менять называние font-family, пути к соответвующим форматам, font-style, font-wight */
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Bold.eot - Proxima Nova Bold.eot');
+    src: local('☺'), url('../fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Bold.woff Simonson - Proxima Nova Bold.woff') format('woff'),
+        url('../fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Bold.ttf Simonson - Proxima Nova Bold.ttf') format('truetype'),
+        url('../fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Bold.svg Simonson - Proxima Nova Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
